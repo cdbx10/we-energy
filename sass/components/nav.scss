@@ -1,0 +1,206 @@
+.opacity{
+    opacity: 0;
+}
+.box-nav {
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 500ms;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    & .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        padding-left: 20px;
+        & a {
+            display: flex;
+            align-items: flex-start;
+            text-decoration: none;
+            color: black;
+            & svg {
+                width: 100%;
+                max-width: 100px;
+                padding: 0px 5px 0px 35px;
+                height: 45px;
+            }
+            & h3.font-logo {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    & .nav-links {
+        display: flex;
+        list-style: none;
+        width: 50%;
+        height: 80%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        & span.divider {
+            height: 1.4rem;
+            width: 2px;
+            background-color: $primary;
+        }
+        & li {
+
+            &.active a {
+                font-weight: 700;
+                color: $primary;
+            }
+            & a {
+                color: #1f1f1f;
+                text-decoration: none;
+                font-family: "Gotham-Pro-medium";
+                font-size: 1rem;
+                text-transform: uppercase;
+                &:hover{
+                    color: #adc400;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+        z-index: 500;
+        &.box-nav {
+            height: 100px;
+            top: 0px;
+            position: fixed;
+            z-index: 500;
+            & .brand {
+                display: block;
+                padding-left: 0px;
+                z-index: 500;
+                & a {
+                    text-align: start;
+                    justify-content: space-around;
+                    align-items: center;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    color: black;
+                    & svg {
+                        max-width: 80px;
+                        margin: 0 auto;
+                    }
+                    & h3.font-logo {
+                        font-size: 1em;
+                    }
+                }
+            }
+            & .hamburger {
+                position: absolute;
+                cursor: pointer;
+                right: 70px;
+                top: 40px;
+                z-index: 500;
+                & .line {
+                    width: 30px;
+                    height: 5px;
+                    background: black;
+                    margin: 5px;
+                    transition: all 0.4s ease-in-out;
+                    position: absolute;
+                    border-radius: 30px;
+                    &#line1 {
+                        transform: translateY(-10px);
+                    }
+                    &#line2 {
+                    }
+                    &#line3 {
+                        transform: translateY(10px);
+                    }
+                }
+                &.active {
+                    & #line1 {
+                        transform: rotate(45deg) translateY(0px);
+                        background-color: white;
+                    }
+                    & #line2 {
+                        transform: translateX(-50px);
+                        background: transparent;
+                    }
+                    & #line3 {
+                        transform: rotate(-45deg) translateY(0px);
+                        background-color: white;
+                    }
+                }
+            }
+            & .nav-links {
+                position: fixed;
+                background: white;
+                height: 100px;
+                width: 100%;
+                flex-direction: column;
+                transition: all 500ms ease-out;
+                pointer-events: none;
+                z-index: 499;
+                justify-content: start;
+                padding-left: 0px;
+                top: 0px;
+                &.open {
+                    height: 100vh;
+                    padding-top: 140px;
+                    background: $primary;
+                    pointer-events: all;
+                }
+                & li {
+                    opacity: 0;
+                    padding-bottom: 30px;
+                    &.active a {
+                        font-weight: 700;
+                        color: #161616;
+                        text-decoration: underline;
+                    }
+                    & a {
+                        font-size: 25px;
+                        color: #161616;
+                        font-family: 'Gotham-Pro-medium';
+                        &:hover{
+                            color: #ffffff;
+                        }
+                    }
+
+            
+                    &#li-1.fade {
+                        opacity: 1;
+                        transition: all 0.5s ease-in-out 0.5s;
+                      }
+                    &#li-2.fade {
+                        opacity: 1;
+                        transition: all 0.6s ease-in-out 0.6s;
+                      }
+                    &#li-3.fade {
+                        opacity: 1;
+                        transition: all 0.7s ease-in-out 0.7s;
+                      }
+                    &#li-4.fade {
+                        opacity: 1;
+                        transition: all 0.8s ease-in-out 0.8s;
+                      }
+                    &#li-5.fade {
+                        opacity: 1;
+                        transition: all 0.9s ease-in-out 0.9s;
+                      }
+                    &.fade {
+                        // opacity: 1;
+                        // transition: all 0.6s ease 0.6s;
+                    }
+                }
+            }
+            & span.divider {
+                display: none;
+            }
+        }
+    }
+}

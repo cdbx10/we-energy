@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/splide.css">
+    <link  rel="icon"   href="favico.png" type="image/png" />
+    <link rel="stylesheet" href="css/full-page.css">
+    <script defer src="js/app-serv.js"></script>
+    <script src="https://kit.fontawesome.com/4019048089.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>We-Energy | Servicios</title>
+</head>
+
+<body>
+    <nav class="box-nav" id="navbar" style="z-index: 22">
+        <div class="brand">
+            <a href="index.html">
+                <svg id="logo" class="cls-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.91 38.92">
+                    <defs></defs>
+                    <g id="Capa_2" data-name="Capa 2">
+                        <g id="Capa_1-2" data-name="Capa 1">
+                            <path d="M14.52,12.51A6.26,6.26,0,1,0,8.27,6.26a6.27,6.27,0,0,0,6.25,6.25" />
+                            <path d="M29.91,12.51a6.26,6.26,0,1,0-6.26-6.25,6.26,6.26,0,0,0,6.26,6.25" />
+                            <path d="M37.66,13.2a6.26,6.26,0,1,0,6.25,6.26,6.27,6.27,0,0,0-6.25-6.26" />
+                            <path d="M29.5,26.4a6.26,6.26,0,1,0,6.26,6.26A6.27,6.27,0,0,0,29.5,26.4" />
+                            <path d="M14.52,26.4a6.26,6.26,0,1,0,6.26,6.26,6.27,6.27,0,0,0-6.26-6.26" />
+                            <path d="M12.51,19.46a6.26,6.26,0,1,0-6.26,6.25,6.27,6.27,0,0,0,6.26-6.25" />
+                            <path d="M28.32,19.46a6.26,6.26,0,1,0-6.25,6.25,6.26,6.26,0,0,0,6.25-6.25" />
+                        </g>
+                    </g>
+                </svg>
+                <h3 class="font-logo" id="text-logo">WE<br>ENERGY</h3>
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li id="li-1"><a href="index.html">Inicio</a></li>
+            <span class="divider"></span>
+
+            <li id="li-1"><a href="index.html#nosotros">Nosotros</a></li>
+            <span class="divider"></span>
+            <li id="li-2" class="active"><a href="#servicios">Servicios</a></li>
+            <span class="divider"></span>
+            <li id="li-3"><a href="index.html#beneficios">Beneficios</a></li>
+            <span class="divider"></span>
+            <li id="li-4"><a href="index.html#equipamiento">Equipamiento</a></li>
+            <span class="divider"></span>
+            <li id="li-5"><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="height-100px">
+
+    </div>
+    <section class="servicios-html">
+        <div id="fullpage">
+            <div class="section fp-auto-height-responsive">
+                <div class="row">
+                    <div class="col-md-5 img-servicios col-sm-12">
+                        <img src="images/4x/serv1.png" alt="">
+                    </div>
+                    <div id="01" class="col-md-7 col-sm-12 serv-detalle  text-justify">
+                        <h2>.01</h2>
+                        <h3>EFICIENCIA ENERGETICA</h3>
+                        <p>
+                            Nuestro objetivo es conocer la situación actual del cliente y detectar oportunidades de
+                            optimización y eficiencia en el consumo energético. La eficiencia energética está orientada
+                            a optimizar el uso de energía, obteniéndose así un ahorro importante en el costo de la misma
+                            y una reducción en la huella de carbono.
+                        </p>
+                        <p>
+                            Por medio del diagnóstico de WE ENERGY detectaremos oportunidades en eficiencia y ahorro
+                            energético mediante la incorporación de un sistema de energía solar fotovoltaica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section fp-auto-height-responsive">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <img src="images/4x/serv2.png" alt="">
+                    </div>
+                    <div id="01" class="col-md-7 col-sm-12 serv-detalle text-justify">
+                        <h2>.02</h2>
+                        <h3>INSTALACIONES SOLARES FOTOVOLTAICAS</h3>
+                        <p>
+                            Realizamos la comercialización de equipos, ingeniería, instalación, operación, mantenimiento
+                            y postventa de instalaciones solares para usuarios residenciales, industriales, comerciales
+                            y agrícolas.
+                        </p>
+                        <h4>PRODUCTOS:</h4>
+                        <div class="d-flex w50p align-items-center">
+                            <span class=" mr-1"><i class="fas fa-chevron-right"></i></span>
+                            <p class="">
+                                SISTEMA DE
+                                GENERACIÓN CONECTADO A RED - ON GRID.
+                            </p>
+                        </div>
+                        <div class="d-flex w50p align-items-center">
+                            <span class=" mr-1"><i class="fas fa-chevron-right"></i></span>
+                            <p class="">
+                                SISTEMA DE
+                            GENERACIÓN SIN CONEXIÓN A RED - OFF GRID.
+                            </p>
+                        </div>
+                        <div class="d-flex w50p align-items-center">
+                            <span class=" mr-1"><i class="fas fa-chevron-right"></i></span>
+                            <p class="">SISTEMA DE BOMBEO
+                                SOLAR.
+                            </p>
+                        </div>
+                        <div class="d-flex w50p align-items-center">
+                            <span class=" mr-1"><i class="fas fa-chevron-right"></i></span>
+                            <p class="">SISTEMA DE
+                                CALENTAMIENTO DE ACS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section fp-auto-height-responsive">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <img src="images/4x/serv3.png" alt="">
+                    </div>
+                    <div id="01" class="col-md-7 col-sm-12 serv-detalle text-justify">
+                        <h2>.03</h2>
+                        <h3>ASESORAMIENTO A GRANDES USUARIOS</h3>
+                        <p>
+                            En un mundo tan exigente como el actual, cada vez más empresas hacen grandes inversiones
+                            para transformar sus modelos de negocio/producción a mecanismos más eficientes, sustentables
+                            y sostenibles.
+
+                            <br>
+                            Los Grandes Usuarios del Mercado Eléctrico Mayorista tienen la obligación de abastecerse con
+                            energía proveniente de fuentes renovables.
+                        </p>
+                        <p>Ante esta situación, poseen tres alternativas:</p>
+                        <p><span class="circ-num">1</span> Proyecto de autogeneración, con posibilidad de inyectar el
+                            excedente a la red eléctrica.</p>
+                        <p><span class="circ-num">2</span> Compra de Energía Renovable a privados, a un costo menor de
+                            lo que se abonaría por dicha energía a la distribuidora local.</p>
+                        <p><span class="circ-num">3</span> Compraventa conjunta mayorista (CAMMESA).</p>
+                        <p>Desde WE ENERGY lo asesoramos y acompañamos brindando soluciones energéticas a medida de cada
+                            cliente.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div class="placeholder">
+        
+    </div>
+                    <div class="splide__slide">
+                        <img class="grey-scale servicios-slide" src="images/servicios2.jpg" alt="">
+
+                        <div class="texto">
+                            <h3 class="soluciones-integrales">SOLUCIONES <br> INTEGRALES - <br> <span
+                                    class="blanco">LLAVE EN MANO</span></span></h3>
+                            <h4>WE ENERGY te acompaña en todas las etapas del proyecto, es decir, desde la adquisición
+                                de equipos, el trámite ante la distribuidora, ingeniería, instalación, ejecución y
+                                mantenimiento correspondiente.</h4>
+                        </div>
+
+                    </div>
+
+
+
+    <footer id="contacto">
+        <div class="container">
+            <h2 class="pt-5 title-section color-primary">
+                CONTACTO
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-md-5 col-sm-12 col-lg-5">
+                    <div class="info-contacto">
+                        <a href="tel:+54 9 11 6568 7139">
+                            <h3>
+                                +54 9 11 6568 7139
+                            </h3>
+                        </a>
+                        <h3>
+                            info@weenergy.com.ar
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 col-lg-7 pt-4">
+                    <form action="">
+                        <div class="form">
+                            <input class="name" type="text" placeholder="Nombre y apellido">
+                        </div>
+                        <div class="form d-flex">
+
+                            <input class="tel" type="text" placeholder="Telefono">
+                            <input class="mail" type="text" placeholder="Email">
+                        </div>
+                        <div class="form ">
+                            <textarea name="" id="" cols="30" rows="10">Consulta</textarea>
+                        </div>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-7 offset-md-5 col-sm-12 col-lg-7  offset-lg-5 pt-4">
+
+                    <div class="d-flex redes-btn">
+                        <a href="">
+                            <div class="redes d-flex justify-content-center align-items-center">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="redes d-flex justify-content-center align-items-center">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="redes d-flex justify-content-center align-items-center">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="redes d-flex justify-content-center align-items-center">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/fullp.js"></script>
+    <script>
+        if(screen.width>700){
+            new fullpage('#fullpage', {
+            navigation: true,
+            navigationPosition: 'left',
+            navigationTooltips: ['EFICIENCIA ENERGÉTICA', 'INSTALACIONES SOLARES FOTOVOLTAICAS', 'ASESORAMIENTO A GRANDES USUARIOS'],
+            responsiveHeight: 800
+        });
+        }
+
+    </script>
+
+    <script src="js/throttle.js"></script>
+    <script src="js/nav-scroll-spy.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+</body>
+
+</html>

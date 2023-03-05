@@ -1,0 +1,119 @@
+.servicios-slide {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+.absolute {
+    position: absolute;
+}
+h3.absolute {
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding: 7% 10%;
+    z-index: 1;
+}
+.cir-3 {
+    background-color: $primary !important;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+}
+.circulo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    background-color: #c4d638;
+    top: 500px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    opacity: 80%;
+    &.c1 {
+        width: 400px;
+        height: 400px;
+        right: -300px;
+        top: 5%;
+    }
+    &.c2 {
+        width: 400px;
+        height: 400px;
+        right: -50px;
+        top: 50%;
+    }
+}
+.banner-h2 {
+    font-size: 3rem;
+    text-align: end;
+}
+.banner-h4 {
+    font-size: 2rem;
+    text-align: end;
+}
+.width-30-pc{
+    width: 28%;
+}
+.texto{
+    position:absolute;
+    z-index: 20;
+    top: 15%;
+    left: 10%;
+    width: 35%;
+    & h4{
+        font-size: 2rem;
+        font-family: "Gotham-Pro-ligth";
+        line-height: 2.4rem;
+        padding-top: 1rem;
+    }
+}
+.soluciones-integrales{
+    font-size: 3.5rem;
+}
+li#splide01-slide02, li#splide01-slide01, li#splide01-slide03{
+    min-height: 632px;
+    height: 100vh;
+}
+.bg-gris.banner{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    min-height: 200px;
+    z-index: 5;
+}
+@media screen and (min-width: 1600px) {
+    svg.ruta-path2.w-80 {
+        width: 150% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    h3.absolute {
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 10% 10%;
+    }
+    .texto{
+        position:absolute;
+        z-index: 20;
+        top: 20%;
+        left: 10%;
+        width: 65%;
+        & h4{
+            font-size: 1.4rem;
+            font-family: "Gotham-Pro-ligth";
+            line-height: 1.8rem;
+            padding-top: 1rem;
+        }
+    }
+    .soluciones-integrales{
+        font-size: 2.5rem;
+    }
+    .banner-h2 {
+        font-size: 1.6rem;
+        text-align: start;
+    }
+    .banner-h4 {
+        font-size: 1rem;
+        text-align: start;
+    }
+    .width-30-pc{
+        width: 28%;
+    }
+}
